@@ -31,9 +31,10 @@ default: git_setup
 ######################################################################################
 # setup section
 #local library directories
-ARDMK_DIR := ./local-libs/Arduino-Makefile
-
 USER_LIB_PATH := ./local_libs
+
+ARDMK_DIR := $(USER_LIB_PATH)/Arduino-Makefile
+
 ARDUINO_LIBS = EEPROM
 
 
